@@ -1,0 +1,43 @@
+img{
+	width:600px;
+	height:300px;
+}
+
+.main-top-text{
+	width: 950px;
+	padding: 0 15px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+}
+
+.main-top{
+	height: 750px;
+	background-size: cover;
+	background-image: url("hand.jpg");
+}
+
+h2{
+	font-size: 40px;
+	color: #fff;
+	background-color: #006699;
+}
+
+.main-katsudo h2{
+	width: 400px;
+}
+
+.main-katsudo-one{
+	padding-left: 100px;
+	background-color: #7db3aa;
+	width: 1170px;
+}
+
+.main-katsudo-one h3{
+	font-size: 25px;
+}
+
+.main-katsudo-one p{
+	font-size: 20px;
+}
