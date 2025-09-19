@@ -28,16 +28,23 @@ h2{
 	width: 400px;
 }
 
+.main-katsudo h3{
+	font-size: 25px;
+}
+
+.main-katsudo p{
+	font-size: 20px;
+
+}
+
 .main-katsudo-one{
 	padding-left: 100px;
 	background-color: #7db3aa;
 	width: 1170px;
 }
 
-.main-katsudo-one h3{
-	font-size: 25px;
-}
-
-.main-katsudo-one p{
-	font-size: 20px;
+.main-katsudo-two{
+    paddibg-left: 100px;
+	background-color: #990000;
+	width: 2000px;
 }
