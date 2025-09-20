@@ -32,11 +32,6 @@ h2{
 	font-size: 25px;
 }
 
-.main-katsudo p{
-	font-size: 20px;
-
-}
-
 .main-katsudo-one{
 	padding-left: 100px;
 	background-color: #7db3aa;
@@ -61,6 +56,13 @@ h2{
 	width: 1090px;
 }
 
+.main-otoiawase{
+	width: 220px;
+}
+
+.mail{
+	font-size: 30px;
+}
 
 
 
