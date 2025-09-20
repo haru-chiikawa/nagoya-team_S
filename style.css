@@ -45,8 +45,14 @@ h2{
 
 .main-katsudo-two{
     padding-left: 100px;
-	background-color: #cc7aa3;
-	width: 1500px;
+	background-color: #fc9b9b;
+	width: 1200px;
+}
+
+.main-katsudo-three{
+	padding-left: 100px;
+	background-color: #759852;
+	width: 1100px;
 }
 
 
