@@ -35,19 +35,19 @@ h2{
 .main-katsudo-one{
 	padding-left: 100px;
 	background-color: #7db3aa;
-	width: 920px;
+	width: 930px;
 }
 
 .main-katsudo-two{
     padding-left: 100px;
 	background-color: #fc9b9b;
-	width: 960px;
+	width: 970px;
 }
 
 .main-katsudo-three{
 	padding-left: 100px;
 	background-color: #759852;
-	width: 840px;
+	width: 850px;
 }
 
 .main-katsudo-four{
@@ -57,13 +57,15 @@ h2{
 }
 
 .main-otoiawase h2{
-	width: 160px;
+	width: 180px;
 }
 
 .mail{
 	padding-left: 100px;
+	color: blue;
 	font-size: 30px;
 }
+
 
 
 
