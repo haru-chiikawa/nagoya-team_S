@@ -22,6 +22,7 @@ h2{
 	font-size: 40px;
 	color: #fff;
 	background-color: #006699;
+	border-radius: 25px;
 }
 
 .main-katsudo h2{
@@ -73,6 +74,7 @@ h2{
 body{
 	background-color: #b0c4de;
 }
+
 
 
 
