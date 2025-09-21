@@ -36,7 +36,7 @@ h2{
 	padding-left: 100px;
 	background-color: #7db3aa;
 	width: 930px;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 .main-katsudo-two{
@@ -50,13 +50,14 @@ h2{
 	padding-left: 100px;
 	background-color: #759852;
 	width: 850px;
-	border-radius: 30px;
+	border-radius: 20px;
 }
 
 .main-katsudo-four{
 	padding-left: 100px;
 	background-color: #ab9249;
 	width: 860px;
+	border-radius: 20px;
 }
 
 .main-otoiawase h2{
@@ -70,8 +71,9 @@ h2{
 }
 
 body{
-	background-color: #f0f8ff;
+	background-color: #b0c4de;
 }
+
 
 
 
