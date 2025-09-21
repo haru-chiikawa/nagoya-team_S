@@ -36,18 +36,21 @@ h2{
 	padding-left: 100px;
 	background-color: #7db3aa;
 	width: 930px;
+	border-radius: 10px;
 }
 
 .main-katsudo-two{
     padding-left: 100px;
 	background-color: #fc9b9b;
 	width: 980px;
+	border-radius: 20px;
 }
 
 .main-katsudo-three{
 	padding-left: 100px;
 	background-color: #759852;
 	width: 850px;
+	border-radius: 30px;
 }
 
 .main-katsudo-four{
@@ -69,6 +72,7 @@ h2{
 body{
 	background-color: #f0f8ff;
 }
+
 
 
 
