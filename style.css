@@ -20,6 +20,7 @@ img{
 
 h2{
 	font-size: 40px;
+	text-align: center;
 	color: #fff;
 	background-color: #006699;
 	border-radius: 25px;
@@ -29,41 +30,24 @@ h2{
 	width: 700px;
 }
 
-
-.main-katsudo h2{
-	width: 400px;
-}
-
 .main-katsudo h3{
 	font-size: 25px;
 }
 
 .main-katsudo-one{
 	padding-left: 100px;
-	background-color: #7db3aa;
-	width: 930px;
-	border-radius: 20px;
 }
 
 .main-katsudo-two{
     padding-left: 100px;
-	background-color: #fc9b9b;
-	width: 980px;
-	border-radius: 20px;
 }
 
 .main-katsudo-three{
 	padding-left: 100px;
-	background-color: #759852;
-	width: 850px;
-	border-radius: 20px;
 }
 
 .main-katsudo-four{
 	padding-left: 100px;
-	background-color: #ab9249;
-	width: 860px;
-	border-radius: 20px;
 }
 
 .main-otoiawase h2{
@@ -81,12 +65,36 @@ body{
 }
 
 
+/*
+現在、抜いているが、今後復帰する際に参考となるコード達
 
 
+.main-katsudo h2{
+	width: 400px;
+}
 
+➀｛
+background-color: #7db3aa;
+	width: 930px;
+	border-radius: 20px;
+｝
 
+➁｛
+	background-color: #fc9b9b;
+	width: 980px;
+	border-radius: 20px;
+｝
 
+➂｛
+	background-color: #759852;
+	width: 850px;
+	border-radius: 20px;
+｝
 
+➃｛
+	background-color: #ab9249;
+	width: 860px;
+	border-radius: 20px;
+｝
 
-
-
+*/
