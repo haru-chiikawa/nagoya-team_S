@@ -1,6 +1,31 @@
 header{
-	height: 100px;
-	background-color: #999;
+	height: 65px;
+	background-color: #555;
+}
+
+header img{
+	height: 65px;
+	width: 130px;
+}
+
+@media(max-width: 1000px){
+	header{
+		height: px;
+	}
+	header img{
+		height: px;
+		width: px;
+	}
+}
+
+@media(max-width: 670px){
+	header{
+		height: 100px;
+	}
+	header img{
+		height: 100px;
+		width: 200px;
+	}
 }
 
 .header-left{
@@ -13,11 +38,6 @@ header{
 	float: left;
 	font-size: 60px;
 	padding: 20px 30px;
-}
-
-header img{
-	height: 100px;
-	width: 200px;
 }
 
 img{
@@ -119,6 +139,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
