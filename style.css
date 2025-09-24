@@ -1,15 +1,16 @@
 header{
 	height: 100px;
-	background-color: #eee;
-	float: left;
+	background-color: #999;
 }
 
 .header-left{
 	text-align: left;
+	float: left;
 }
 
 .header-right{
 	text-align: right;
+	float: left;
 }
 
 header img{
@@ -116,6 +117,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
