@@ -17,6 +17,7 @@ header img{
 	text-align: right;
 	float: left;
 	font-size: 25px;
+	padding: 12px 5px;
 }
 
 header a{
@@ -49,6 +50,7 @@ header a{
 	}
 	.header-right{
 	font-size: 30px;
+		padding: 25px 5px 25px 10px
 	}
 }
 
@@ -151,6 +153,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
