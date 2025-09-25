@@ -52,18 +52,6 @@ header a{
 	}
 }
 
-.header-left{
-	text-align: left;
-	float: left;
-}
-
-.header-right{
-	text-align: right;
-	float: left;
-	font-size: 60px;
-	padding: 20px 30px;
-}
-
 img{
 	width:600px;
 	height:300px;
@@ -163,6 +151,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
