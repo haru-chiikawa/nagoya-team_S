@@ -38,6 +38,7 @@ header img{
 @media(max-width: 1200px){
 	header{
 		height: 100px;
+		background-color: red;
 	}
 	header img{
 		height: 100px;
@@ -160,6 +161,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
