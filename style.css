@@ -17,10 +17,13 @@ header img{
 	text-align: right;
 	float: left;
 	font-size: 55px;
-	color: white;
 	padding: 5px 30px 5px 100px;
 }
 
+header a{
+	text-decoration: none;
+	color:#fff;
+}
 @media(max-width: 1000px){
 	header{
 		height: px;
@@ -161,6 +164,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
