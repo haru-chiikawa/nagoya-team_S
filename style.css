@@ -17,8 +17,11 @@ header img{
 .header-right{
 	text-align: right;
 	float: left;
+}
+
+ header-right a{
 	font-size: 25px;
-	padding: 12px 75px;
+	padding: 12px 10px;
 }
 
 header a{
@@ -34,7 +37,10 @@ header a{
 		height: px;
 		width: px;
 	}
-	.header-right{
+	.header-left{
+		 padding-right: ;
+	 }
+	.header-right a{
 	font-size: px;
 	padding: px px px px;
 	} 
@@ -49,9 +55,12 @@ header a{
 		height: 100px;
 		width: 200px;
 	}
-	.header-right{
-	font-size: 30px;
-		padding: 25px 0px 25px 20px
+	.header-left{
+		 padding-right: 20px;
+	 }
+	.header-right a{
+	    font-size: 30px;
+		padding: 25px 0px 25px 5px
 	}
 }
 
@@ -154,6 +163,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
