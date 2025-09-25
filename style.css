@@ -11,13 +11,14 @@ header img{
 .header-left{
 	text-align: left;
 	float: left;
+	padding-right: 200px
 }
 
 .header-right{
 	text-align: right;
 	float: left;
 	font-size: 25px;
-	padding: 12px 5px;
+	padding: 12px 25px;
 }
 
 header a{
@@ -50,7 +51,7 @@ header a{
 	}
 	.header-right{
 	font-size: 30px;
-		padding: 25px 5px 25px 10px
+		padding: 25px 0px 25px 25px
 	}
 }
 
@@ -153,6 +154,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
