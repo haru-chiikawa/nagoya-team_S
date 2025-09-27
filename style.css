@@ -1,3 +1,6 @@
+/*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
+
+/*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに關係）　*/
 header{
 	height: 65px;
 	background-color: #555;
@@ -15,7 +18,6 @@ header img{
 }
 
 .header-right{
-	text-align: right;
 	float: left;
 }
 
@@ -29,6 +31,7 @@ header a{
 	color:#fff;
 }
 
+/*　ヘッダーの情報を記載（タブレットの画素数を想定）。　*/
 @media(max-width: 1000px){
 	header{
 		height: px;
@@ -46,6 +49,7 @@ header a{
 	} 
 }
 
+/*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
 @media(max-width: 1200px){
 	header{
 		height: 100px;
@@ -65,6 +69,7 @@ header a{
 	}
 }
 
+/*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
 img{
 	width:600px;
 	height:300px;
@@ -85,6 +90,17 @@ img{
 	background-image: url("hand.jpg");
 }
 
+/*　ページを開いてトップに表示される画像部の情報を記載（タブレットの画素数を想定）。　*/
+@media(max-width: px){
+	.
+}
+
+/*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
+@media(max-width: 1200px){
+	.
+}
+
+/*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
 h2{
 	font-size: 40px;
 	text-align: center;
@@ -93,6 +109,7 @@ h2{
 	border-radius: 25px;
 }
 
+/*　活動紹介の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
 .main-katsudo h3{
 	font-size: 25px;
 }
@@ -113,12 +130,36 @@ h2{
 	padding-left: 100px;
 }
 
+/*　活動紹介の部分の情報を記載（タブレットの画素数を想定）。　*/
+@media(max-width: px){
+	.
+}
+
+/*　活動紹介の部分の情報を記載（スマートフォンの画素数を想定）。　*/
+@media(max-width: 1200px){
+	.
+}
+
+/*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
 .mail{
 	padding-left: 100px;
 	color: blue;
 	font-size: 30px;
 }
 
+/*　「お問合せ」の部分の情報を記載（タブレットの画素数を想定）。　*/
+@media(max-width: px){
+	.
+}
+
+/*　「お問合せ」の部分の情報を記載（スマートフォンの画素数を想定）。　*/
+@media(max-width: 1200px){
+	.mail{
+		font-size: 20px;
+	} 
+}
+
+/*　ページ全体に關係する情報を記載（すべての画素数に適応）。　*/
 body{
 	background-color: #b0c4de;
 }
@@ -164,6 +205,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
