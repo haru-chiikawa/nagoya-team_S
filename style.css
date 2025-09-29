@@ -72,6 +72,11 @@ header a{
 }
 
 /*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+ main{
+	 position-top: 100px;
+ }
+
+
 img{
 	width:600px;
 	height:300px;
@@ -207,6 +212,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
