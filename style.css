@@ -1,6 +1,10 @@
 /*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
 
 /*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに關係）　*/
+.pd{
+	height: 65px;
+}
+
 header{
 	height: 65px;
 	background-color: #555;
@@ -23,7 +27,7 @@ header img{
 	float: left;
 }
 
- header-right a{
+ .header-right a{
 	font-size: 25px;
 	padding: 12px 10px;
 }
@@ -53,6 +57,9 @@ header a{
 
 /*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
 @media(max-width: 1200px){
+	.pd{
+		height: 100px;
+	}
 	header{
 		height: 100px;
 		background-color: red;
@@ -72,7 +79,7 @@ header a{
 }
 
 /*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
- main{
+ .main{
 	 position-top: 100px;
  }
 
@@ -212,6 +219,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
