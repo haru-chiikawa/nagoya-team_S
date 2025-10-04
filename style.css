@@ -36,12 +36,11 @@ header a{
 .menu_btn{
 	width: 65px;
 	height: 65px;
-	background-img: url("img/menu_btn") no-repeat;
+	background: url("img/menu_btn") no-repeat;
 	background-size: 100% 100%;
 	position: fixed;
 	top: 0px; right: 0px;
 	z-index: 15px;
-	cursor: pointer;
 }
 
 
@@ -230,6 +229,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
