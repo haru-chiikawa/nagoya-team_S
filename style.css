@@ -33,6 +33,18 @@ header a{
 	color:#fff;
 }
 
+.menu_btn{
+	width: 65px;
+	height: 65px;
+	background-img: url("img/menu_btn") no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	top: 0px; right: 0px;
+	z-index: 15px;
+	cursor: pointer;
+}
+
+
 /*　ヘッダーの情報を記載（タブレットの画素数を想定）。　*/
 @media(max-width: 1000px){
 	header{
@@ -218,6 +230,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
