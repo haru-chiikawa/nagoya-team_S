@@ -36,7 +36,7 @@ header a{
 .menu_btn{
 	width: 65px;
 	height: 65px;
-	background: url("menu_btn.jpg") no-repeat;
+	background: url("imgs/menu_btn.jpg") no-repeat;
 	background-size: 100% 100%;
 	position: fixed;
 	top: 0px; right: 0px;
@@ -113,7 +113,7 @@ img{
 .main-top{
 	height: 750px;
 	background-size: cover;
-	background-image: url("hand.jpg");
+	background-image: url("imgs/hand.jpg");
 }
 
 /*　ページを開いてトップに表示される画像部の情報を記載（タブレットの画素数を想定）。　*/
@@ -233,6 +233,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
