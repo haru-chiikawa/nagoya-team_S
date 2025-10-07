@@ -139,6 +139,26 @@ h2{
 }
 
 /*　活動紹介の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+
+.r{
+	text-align: right;
+}
+
+.l{
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .main-katsudo h3{
 	font-size: 25px;
 }
@@ -234,6 +254,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
