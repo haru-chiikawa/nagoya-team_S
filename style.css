@@ -138,6 +138,13 @@ h2{
 	border-radius: 25px;
 }
 
+
+.kizunanohi{
+	background-image: ("imgs/ipponmatsu");
+	width: 80%;
+}
+
+
 /*　活動紹介の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
 .main-katsudo h3{
 	font-size: 25px;
@@ -234,6 +241,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
