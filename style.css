@@ -142,7 +142,12 @@ h2{
 .kongo{
 	text-align: center;
 }
+.kongo-pd{
+	float: left;
+	width: 10%;
+}
 .kizunanohi{
+	float: left;
 	width: 80%;
 }
 
@@ -244,6 +249,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
