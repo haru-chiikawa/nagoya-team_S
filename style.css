@@ -138,18 +138,16 @@ h2{
 	border-radius: 25px;
 }
 
-
+/*　今後の活動の部分の情報を記載　*/
 .kongo{
 	text-align: center;
 }
 .kongo-pd{
 	float: left;
-	width: 10%;
 	heiht: 850px;
 }
 .kizunanohi{
 	float: left;
-	width: 80%;
 }
 .kizunanohi img{
 	width: 640px;
@@ -254,6 +252,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
