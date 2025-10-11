@@ -151,7 +151,7 @@ h2{
 }
 .kizunanohi img{
 	position: relatibve;
-	top: 300px;
+	top: 300px;   left: 0px;
 	width: 640px;
 	height: 850px;
 }
@@ -254,6 +254,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
