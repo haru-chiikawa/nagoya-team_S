@@ -148,7 +148,9 @@ h2{
 }
 .kizunanohi{
 	position: relative;
-	display: inline-block;
+	display: block;
+	width: fit-content;
+	margin: 0 auto;
 }
 .kizunanohi img{
 	width: 25%;
@@ -157,13 +159,14 @@ h2{
 }
 .kizunanohi .caption{
 	position: absolute;
-	bottom: 50px;
+	bottom: 0px;
 	left: 0;
 	width: 100%;
 	color: white;
 	background: rgba(0,0,0,0.5);
 	padding: 10px;
-	font-size: 18px
+	font-size: 18px;
+	box-sizing: border-box;
 }
 
 
@@ -263,5 +266,6 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
