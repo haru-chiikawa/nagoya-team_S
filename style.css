@@ -64,7 +64,7 @@ header a{
 }
 
 /*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
+@media(max-width: 768px){
 	header{
 		height: 100px;
 		background-color: blue;
@@ -98,16 +98,16 @@ header a{
 
 
 img{
-	width:600px;
-	height:300px;
+	max-width: 100%;
+	height: auto;
 }
 
 .main-top-text{
-	width: 950px;
+	width: 90%;
 	padding: 0 15px;
 	margin: 0 auto;
 	color: #fff;
-	font-size: 50px;
+	font-size: 24px;
 	text-align: center;
 }
 
@@ -123,9 +123,12 @@ img{
 }
 
 /*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
+@media(max-width: 768px){
 	.pd{
 		height: 100px;
+	}
+	.main-top-text{
+		font-size: 16px;
 	}
 }
 
@@ -151,9 +154,9 @@ h2{
 }
 .kizunanohi img{
 	position: relative;
-	top: 300px;   left: 0px;
-	width: 640px;
-	height: 850px;
+	top: 0
+	width: 100%;
+	height: auto;
 }
 
 
@@ -185,7 +188,7 @@ h2{
 }
 
 /*　活動紹介の部分の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
+@media(max-width: 768px){
 	.
 }
 
@@ -202,7 +205,7 @@ h2{
 }
 
 /*　「お問合せ」の部分の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
+@media(max-width: 768px){
 	.mail{
 		font-size: 20px;
 	} 
@@ -254,58 +257,3 @@ background-color: #7db3aa;
 ｝
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
