@@ -8,7 +8,7 @@ body {
 /*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
 header{
 	height: 65px;
-	background-color: #555;
+	background-color: #777;
 	position: fixed;
 	top:0px;
 	z-index: 10;
@@ -153,25 +153,24 @@ h1{
 }
 .kizunanohi{
 	position: relative;
-	display: block;
-	display: inline-block;
+	width: 80%;
+	max-width: 600px;
 	margin: 0 auto;
 }
 .kizunanohi img{
-	width: 40%;
+	width: 100%;
 	height: auto;
-	margin: 0 auto;
 	display: block;
 }
 .kizunanohi .caption{
 	position: absolute;
 	bottom: 0px;
 	left: 0;
-	width: 90%;
+	width: 100%;
 	color: white;
 	background: rgba(0,0,0,0.5);
 	padding: 10px;
-	font-size: 18px;
+	font-size: 16px;
 	box-sizing: border-box;
 }
 
@@ -272,6 +271,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
