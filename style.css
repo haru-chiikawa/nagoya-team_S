@@ -1,14 +1,16 @@
 /*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
 
 body {
-  word-wrap: break-word;
-  overflow-wrap: anywhere;
+	word-wrap: break-word;
+	overflow-wrap: anywhere;
+	margin: 0;
+	padding: 0;
 }
 
 /*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
 header{
 	height: 65px;
-	background-color: #777;
+	background-color: #555;
 	position: fixed;
 	top:0px;
 	z-index: 10;
@@ -271,6 +273,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
