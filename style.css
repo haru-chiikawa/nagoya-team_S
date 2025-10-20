@@ -1,5 +1,10 @@
 /*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
 
+body {
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
 /*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
 header{
 	height: 65px;
@@ -133,7 +138,7 @@ img{
 }
 
 /*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
-h2{
+h1{
 	font-size: 40px;
 	text-align: center;
 	color: #fff;
@@ -267,6 +272,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
