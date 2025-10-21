@@ -87,56 +87,27 @@ header a{
 	}
 }
 
-/*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
-.pd{
-	height: 65px;
-}
 
-.main{
-	 position-top: 100px;
- }
-
-
-img{
-	width:600px;
-	height:300px;
-}
-
-.main-top-text{
-	width: 950px;
-	padding: 0 15px;
-	margin: 0 auto;
-	color: #fff;
-	font-size: 50px;
-	text-align: center;
-}
-
-.main-top{
-	height: 750px;
-	background-size: cover;
-	background-image: url("imgs/hand.jpg");
-}
-
-/*　ページを開いてトップに表示される画像部の情報を記載（タブレットの画素数を想定）。　*/
-@media(max-width: px){
-	.
-}
-
-/*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
-	.pd{
-		height: 100px;
-	}
-}
-
-/*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
-h2{
+/*　タイトルの情報を記載。（すべての画素数に適応）　*/
+h1{
 	font-size: 40px;
 	text-align: center;
 	color: #fff;
 	background-color: #006699;
 	border-radius: 25px;
 }
+
+/*　内容の情報　*/
+.top-img{
+	width: 50%;
+	height: auto;
+}
+
+.sub-img{
+	height: 400px;
+	width: auto;
+}
+
 
 /*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
 .mail{
@@ -161,90 +132,4 @@ h2{
 body{
 	background-color: #b0c4de;
 }
-
-
-/*
-現在、抜いているが、今後復帰する際に参考となるコード達
-
-.main-aboutkizunakouryu h2{
-	width: 700px;
-}
-
-.main-katsudo h2{
-	width: 400px;
-}
-
-.main-otoiawase h2{
-	width: 180px;
-}
-
-➀｛
-background-color: #7db3aa;
-	width: 930px;
-	border-radius: 20px;
-｝
-
-➁｛
-	background-color: #fc9b9b;
-	width: 980px;
-	border-radius: 20px;
-｝
-
-➂｛
-	background-color: #759852;
-	width: 850px;
-	border-radius: 20px;
-｝
-
-➃｛
-	background-color: #ab9249;
-	width: 860px;
-	border-radius: 20px;
-｝
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
