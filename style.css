@@ -187,9 +187,12 @@ h1{
 
 @media screen and(min-width: 769px){
 	.kizunanohi{
-		width: 40%;
+		width: 30%;
 		max-width: 500px;
 		max-height: 800px;
+	}
+	.caption{
+		font-size: 20px;
 	}
 }
 
@@ -334,6 +337,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
