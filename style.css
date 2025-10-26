@@ -9,16 +9,19 @@ body {
 	padding: 0;
 }
 
-p
-a
-{
+p, a{
 	padding-left: 5px;
+}
+
+ul, li{
+	list-style: none;
 }
 
 /*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
 header{
 	height: 65px;
 	background-color: #555;
+	width: 100%;
 	position: fixed;
 	top:0px;
 	z-index: 10;
@@ -27,38 +30,56 @@ header{
 header img{
 	height: 65px;
 	width: 130px;
-}
-
-.header-left{
 	text-align: left;
 	float: left;
 	padding-right: 25px
 }
 
-.header-right{
-	float: left;
+/* チェックボックスは非表示 */
+.menu-toggle {
+  display: none;
 }
 
- .header-right a{
-	font-size: 25px;
-	padding: 12px 10px;
+/* ハンバーガーボタン */
+.menu-btn {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  background: url("img/menu_btn.jpg") no-repeat center center / cover;
 }
 
-header a{
-	text-decoration: none;
-	color:#fff;
+/* チェック時に × アイコンへ切り替え */
+.menu-toggle:checked + .menu-btn {
+  background: url("img/close_btn.jpg") no-repeat center center / cover;
 }
 
-.menu_btn{
-	width: 65px;
-	height: 65px;
-	background: url("imgs/menu_btn.jpg") no-repeat;
-	background-size: 100% 100%;
-	position: fixed;
-	top: 0px; right: 0px;
-	z-index: 15;
+/* メニュー（デフォルト非表示） */
+.nav {
+  display: none;
+  background: #444;
+  margin-top: 60px; /* ボタンの下に余白をつける */
 }
 
+/* チェック時のみ表示 */
+.menu-toggle:checked ~ .nav {
+  display: block;
+}
+
+/* メニューデザイン */
+.nav ul li {
+  border-top: 1px solid #555;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background: #666;
+}
 
 /*　ヘッダーの情報を記載（タブレットの画素数を想定）。　*/
 @media(max-width: 1000px){
@@ -81,25 +102,14 @@ header a{
 /*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
 @media(max-width: 768px){
 	header{
-		height: 100px;
 		background-color: blue;
 	}
 	header img{
-		height: 100px;
-		width: 200px;
+
 	}
 	.header-left{
 		 padding-right: 20px;
 	 }
-	.header-right a{
-	    font-size: 20px;
-		padding-top: 25px;
-		padding-left: 15px;
-	}
-	.menu_btn{
-		width: 100px;
-		height: 100px;
-	}
 }
 
 /*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
@@ -337,6 +347,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
