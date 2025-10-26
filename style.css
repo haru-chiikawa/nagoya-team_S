@@ -46,6 +46,10 @@ header img{
   height: 65px;
   cursor: pointer;
   background: url("imgs/menu_btn.jpg") no-repeat center center / cover;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 20;
 }
 
 /* チェック時に × アイコンへ切り替え */
@@ -347,6 +351,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
