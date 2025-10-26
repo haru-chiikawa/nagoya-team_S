@@ -45,12 +45,12 @@ header img{
   width: 65px;
   height: 65px;
   cursor: pointer;
-  background: url("img/menu_btn.jpg") no-repeat center center / cover;
+  background: url("imgs/menu_btn.jpg") no-repeat center center / cover;
 }
 
 /* チェック時に × アイコンへ切り替え */
 .menu-toggle:checked + .menu-btn {
-  background: url("img/close_btn.jpg") no-repeat center center / cover;
+  background: url("imgs/close_btn.jpg") no-repeat center center / cover;
 }
 
 /* メニュー（デフォルト非表示） */
@@ -347,6 +347,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
