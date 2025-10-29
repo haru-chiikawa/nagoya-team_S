@@ -154,7 +154,7 @@ img{
 /*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
 @media(max-width: 768px){
 	.pd{
-		height: 100px;
+		height: 65px;
 	}
 	.main-top-text{
 		font-size: 16px;
@@ -351,6 +351,7 @@ background-color: #7db3aa;
 ｝
 
 */
+
 
 
 
