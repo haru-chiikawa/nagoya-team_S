@@ -160,43 +160,12 @@ img{
 }
 
 /*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
-h2{
+h1{
 	font-size: 40px;
 	text-align: center;
 	color: #fff;
 	background-color: #006699;
 	border-radius: 25px;
-}
-
-/*　活動紹介の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
-.main-katsudo h3{
-	font-size: 25px;
-}
-
-.main-katsudo-one{
-	padding-left: 100px;
-}
-
-.main-katsudo-two{
-    padding-left: 100px;
-}
-
-.main-katsudo-three{
-	padding-left: 100px;
-}
-
-.main-katsudo-four{
-	padding-left: 100px;
-}
-
-/*　活動紹介の部分の情報を記載（タブレットの画素数を想定）。　*/
-@media(max-width: px){
-	.
-}
-
-/*　活動紹介の部分の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
-	.
 }
 
 /*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
@@ -270,5 +239,6 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
