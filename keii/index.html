@@ -10,23 +10,37 @@
 <header>
 	<div class="header-left">
 		<a href="https://haru-chiikawa.github.io/nagoya-team_S/">
-		    <img src="../imgs/namelogo.jpg">
+		    <img src="../imgs/namelogo.jpg" alt="名古屋team S　ロゴ" loading="lazy">
 		</a>
 	</div>
-	<div class="header-right">
-		<a href="../koremade">これまでの活動</a>
-		<a href="index.html">団体設立の経緯</a>
-		<a href="../logo&icon">ロゴとアイコン</a>
-		<a href="../yakuin">役員</a>
-		<a href="../Q&A">よくある質問</a>
-	</div>
-	<div class="menu_btn"></div>
-	<div class="menu_btn2"></div>
-			
-</header>
 
+  <!-- チェックボックス（表示切替用） -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-btn"></label>
+
+  <!-- ナビゲーション -->
+  <nav class="nav">
+    <ul>
+
+		<li><a href="koremade">これまでの活動</a></li>
+		<li><a href="keii">団体設立の経緯</a></li>
+		<li><a href="">商品紹介</a></li>
+		<li><a href="logo&icon">ロゴとアイコン</a></li>
+		<li><a href="yakuin">役員</a></li>
+		<li><a href="Q&A">よくある質問</a></li>
+	</ul>
+  </nav>
+	
+</header>
 <div class="pd"></div>
 <!--　メイン　（以下がホームページの主となる部分）　-->
+<!--　パンくずリスト　-->
+<div class="pankuzu">
+	<p>
+		<a href="..">トップ</a>/団体設立の経緯
+	</p>
+</div>
+			
 <!--　絆交流について　（絆交流について説明している部分）-->
 <div class="aboutkizunakouryu">
 	<h2>「名古屋team S」設立の経緯</h2>
@@ -38,7 +52,7 @@
 
 <!--　特徴　（名古屋team Sの特徴について説明している部分）　-->
 <div class="tokucho">
-	<h2>名古屋team Sの特徴</h2>
+	<h1>名古屋team Sの特徴</h1>
 	<p>名古屋team Sは絆交流の経験者のみで構成されています。</p>
 	<p>絆交流に参加した中学生の「センパイ」チームということで「team S」と名付けられました。</p>
 	<p>交流は10年以上続いているため、名古屋team Sには高校生から社会人まで、幅広い世代のメンバーが参加しています。</p>
@@ -49,12 +63,35 @@
 
 <!--　メイン　お問合せ　（問い合わせに関する部分）-->
 <div class="main-otoiawase">
-	<h2>お問合せ</h2>
+	<h1>お問合せ</h1>
 	<p>イベントや学校での、防災/減災に関する講演・出展・企画のご依頼をお待ちしております。ご希望の方は、下記mailまでお気軽にご連絡いただけますと幸いです。</p>
 	<p class="mail">全体mail</p>
 	<p class="mail">nagoyateamsince20241215@gmail.com</p>
 </div>
 
+
+<!--フッター-->
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>名古屋team S</h2>
+    </div>
+    <div class="footer-links">
+		<a href="../koremade">これまでの活動</a>
+		<a href="">団体設立の経緯</a>
+		<a href="../">商品紹介</a>
+		<a href="../logo&icon">ロゴとアイコン</a>
+		<a href="../yakuin">役員</a>
+		<a href="../Q&A">よくある質問</a>
+		<br>
+		<a>今後の活動</a>
+		<a href="../koremade/ichiran/kizunanohi">絆の日</a>
+    </div>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+    </div>
+    <p class="footer-copy">© 2025 Nagoya team S. All rights reserved.</p>
+  </div>
+</footer>
 		</body>
 </html>
-
