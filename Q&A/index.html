@@ -10,26 +10,40 @@
 <header>
 	<div class="header-left">
 		<a href="https://haru-chiikawa.github.io/nagoya-team_S/">
-		    <img src="../imgs/namelogo.jpg">
+		    <img src="../imgs/namelogo.jpg" alt="名古屋team S　ロゴ" loading="lazy">
 		</a>
 	</div>
-	<div class="header-right">
-		<a href="../koremade">これまでの活動</a>
-		<a href="../keii">団体設立の経緯</a>
-		<a href="../logo&icon">ロゴとアイコン</a>
-		<a href="../yakuin">役員</a>
-		<a href="index.html">よくある質問</a>
-	</div>
-	<div class="menu_btn"></div>
-	<div class="menu_btn2"></div>
-			
+
+  <!-- チェックボックス（表示切替用） -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-btn"></label>
+
+  <!-- ナビゲーション -->
+  <nav class="nav">
+    <ul>
+
+		<li><a href="../koremade">これまでの活動</a></li>
+		<li><a href="../keii">団体設立の経緯</a></li>
+		<li><a href="../">商品紹介</a></li>
+		<li><a href="../logo&icon">ロゴとアイコン</a></li>
+		<li><a href="../yakuin">役員</a></li>
+		<li><a href="">よくある質問</a></li>
+	</ul>
+  </nav>
+	
 </header>
 
 <div class="pd"></div>
 <!--　メイン　（以下がホームページの主となる部分）　-->
+<!--　パンくずリスト　-->
+<div class="pankuzu">
+	<p>
+		<a href="..">トップ</a>/よくある質問
+	</p>
+</div>
 <!--　絆交流について　（絆交流について説明している部分）-->
 <div class="aboutkizunakouryu">
-	<h2>よくある質問</h2>
+	<h1>よくある質問</h1>
 	<p class="r">「名古屋team S」には誰が入会できますか？<br>また、入会するためにはどうすれば良いですか？</p>
 	<p class="l">名古屋市教育委員会が実施する陸前高田市との中学生相互訪問交流事業「絆交流」に参加したことのある方がご入会いただけます。<br>
 		入会を希望される方は次のメールアドレスより、その旨をお伝えください。<br>
@@ -49,76 +63,36 @@
 	<p class="l"></p>
 </div>
 
-<!--　特徴　（名古屋team Sの特徴について説明している部分）　-->
-<div class="tokucho">
-	<h2>名古屋team Sの特徴</h2>
-	<p>名古屋team Sは絆交流の経験者のみで構成されています。</p>
-	<p>絆交流に参加した中学生の「センパイ」チームということで「team S」と名付けられました。</p>
-	<p>交流は10年以上続いているため、名古屋team Sには高校生から社会人まで、幅広い世代のメンバーが参加しています。</p>
-	<p>陸前高田市で学んだことを多くの人に伝えるため、活動を行っています。</p>
-	<p>イベント出展・講演・おがくず製品販売情報などは名古屋team Sの公式Instagramで随時発信していますので、ぜひアカウントのフォローをお願いいたします！</p>
-	
-</div>
-
-<!--　メイン　活動　（各グループについて説明している部分）-->
-<div class="main-katsudo">
-	<h2>名古屋team Sの活動</h2>
-	<div class="main-katsudo-one">
-		<h3>①防災啓発グループ</h3>
-		<p>防災・減災に関するイベントなどに出展し、陸前高田市・東日本大震災・備えの重要性などについて伝える活動を行っています。</p>
-	</div>
-
-	<div class="main-katsudo-two">
-		<h3>②学校防災グループ</h3>
-		<p>学校で防災・減災に関する授業や講演などを行うことにより、東日本大震災を知らない世代に震災について伝える活動を行っています。</p>
-	</div>
-	
-	<div class="main-katsudo-three">
-		<h3>③商品開発グループ</h3>
-		<p>「奇跡の一本松」のおがくずを使用した製品の企画・販売を行うことで、震災の記憶を形にする活動を行っています。</p>
-	</div>
-	
-	<div class="main-katsudo-four">
-		<h3>④総務部　地域連携グループ　絆交流ユニット</h3>
-		<p>名古屋市と連携し、今でも続く中学生交流の支援を行っています。また、防災学習も行い、還元活動につなげています。</p>
-	</div>
-</div>
-
 <!--　メイン　お問合せ　（問い合わせに関する部分）-->
 <div class="main-otoiawase">
-	<h2>お問合せ</h2>
+	<h1>お問合せ</h1>
 	<p>イベントや学校での、防災/減災に関する講演・出展・企画のご依頼をお待ちしております。ご希望の方は、下記mailまでお気軽にご連絡いただけますと幸いです。</p>
 	<p class="mail">全体mail</p>
 	<p class="mail">nagoyateamsince20241215@gmail.com</p>
 </div>
 
-<p>最終変更日時:10/4 8:30(a)</p>
+<!--フッター-->
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>名古屋team S</h2>
+    </div>
+    <div class="footer-links">
+		<a href="../koremade">これまでの活動</a>
+		<a href="../keii">団体設立の経緯</a>
+		<a href="../">商品紹介</a>
+		<a href="../logo&icon">ロゴとアイコン</a>
+		<a href="../yakuin">役員</a>
+		<a href="">よくある質問</a>
+		<br>
+		<a>今後の活動</a>
+		<a href="../koremade/ichiran/kizunanohi">絆の日</a>
+    </div>
+    <div class="footer-social">
+      <a href="">Instagram</a>
+    </div>
+    <p class="footer-copy">© 2025 Nagoya team S. All rights reserved.</p>
+  </div>
+</footer>
 		</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
