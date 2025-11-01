@@ -1,9 +1,27 @@
 /*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
 
-/*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに關係）　*/
+/*　ページ全体に関係する情報を記載（すべての画素数に適応）。　*/
+body {
+	background-color: #b0c4de;
+	word-wrap: break-word;
+	overflow-wrap: anywhere;
+	margin: 0;
+	padding: 0;
+}
+
+p, a{
+	padding-left: 5px;
+}
+
+ul, li{
+	list-style: none;
+}
+
+/*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
 header{
 	height: 65px;
 	background-color: #555;
+	width: 100%;
 	position: fixed;
 	top:0px;
 	z-index: 10;
@@ -12,38 +30,60 @@ header{
 header img{
 	height: 65px;
 	width: 130px;
-}
-
-.header-left{
 	text-align: left;
 	float: left;
 	padding-right: 25px
 }
 
-.header-right{
-	float: left;
+/* チェックボックスは非表示 */
+.menu-toggle {
+  display: none;
 }
 
- .header-right a{
-	font-size: 25px;
-	padding: 12px 10px;
-}
-
-header a{
-	text-decoration: none;
-	color:#fff;
-}
-
-.menu_btn{
-	width: 65px;
-	height: 65px;
-	background: url("../imgs/menu_btn.jpg") no-repeat;
-	background-size: 100% 100%;
+/* ハンバーガーボタン */
+.menu-btn {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  background: url("../imgs/menu_btn.jpg") no-repeat center center / cover;
 	position: fixed;
-	top: 0px; right: 0px;
-	z-index: 15;
+	top: 0px;
+	right: 0px;
+	z-index: 20;
 }
 
+/* チェック時に × アイコンへ切り替え */
+.menu-toggle:checked + .menu-btn {
+  background: url("../imgs/close_btn.jpg") no-repeat center center / cover;
+}
+
+/* メニュー（デフォルト非表示） */
+.nav {
+  display: none;
+  background: #444;
+  margin-top: 60px; /* ボタンの下に余白をつける */
+}
+
+/* チェック時のみ表示 */
+.menu-toggle:checked ~ .nav {
+  display: block;
+}
+
+/* メニューデザイン */
+.nav ul li {
+  border-top: 1px solid #555;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background: #666;
+}
 
 /*　ヘッダーの情報を記載（タブレットの画素数を想定）。　*/
 @media(max-width: 1000px){
@@ -64,27 +104,16 @@ header a{
 }
 
 /*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
+@media(max-width: 768px){
 	header{
-		height: 100px;
 		background-color: blue;
 	}
 	header img{
-		height: 100px;
-		width: 200px;
+
 	}
 	.header-left{
 		 padding-right: 20px;
 	 }
-	.header-right a{
-	    font-size: 20px;
-		padding-top: 25px;
-		padding-left: 15px;
-	}
-	.menu_btn{
-		width: 100px;
-		height: 100px;
-	}
 }
 
 /*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
@@ -125,48 +154,17 @@ img{
 /*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
 @media(max-width: 1200px){
 	.pd{
-		height: 100px;
+		height: 65px;
 	}
 }
 
 /*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
-h2{
+h1{
 	font-size: 40px;
 	text-align: center;
 	color: #fff;
 	background-color: #006699;
 	border-radius: 25px;
-}
-
-/*　活動紹介の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
-.main-katsudo h3{
-	font-size: 25px;
-}
-
-.main-katsudo-one{
-	padding-left: 100px;
-}
-
-.main-katsudo-two{
-    padding-left: 100px;
-}
-
-.main-katsudo-three{
-	padding-left: 100px;
-}
-
-.main-katsudo-four{
-	padding-left: 100px;
-}
-
-/*　活動紹介の部分の情報を記載（タブレットの画素数を想定）。　*/
-@media(max-width: px){
-	.
-}
-
-/*　活動紹介の部分の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
-	.
 }
 
 /*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
@@ -188,92 +186,55 @@ h2{
 	} 
 }
 
-/*　ページ全体に關係する情報を記載（すべての画素数に適応）。　*/
-body{
-	background-color: #b0c4de;
+/******** フッター ********/
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
 }
 
-
-/*
-現在、抜いているが、今後復帰する際に参考となるコード達
-
-.main-aboutkizunakouryu h2{
-	width: 700px;
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.main-katsudo h2{
-	width: 400px;
+.footer-logo h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
 }
 
-.main-otoiawase h2{
-	width: 180px;
+.footer-links,
+.footer-social {
+  margin: 10px 0;
 }
 
-➀｛
-background-color: #7db3aa;
-	width: 930px;
-	border-radius: 20px;
-｝
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
 
-➁｛
-	background-color: #fc9b9b;
-	width: 980px;
-	border-radius: 20px;
-｝
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ff9800; /* ホバー時の色 */
+}
 
-➂｛
-	background-color: #759852;
-	width: 850px;
-	border-radius: 20px;
-｝
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
 
-➃｛
-	background-color: #ab9249;
-	width: 860px;
-	border-radius: 20px;
-｝
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/************* スマホ対応 ************/
+@media (max-width: 768px) {
+  .footer-links a,
+  .footer-social a {
+    display: block;
+    margin: 5px 0;
+  }
+}
