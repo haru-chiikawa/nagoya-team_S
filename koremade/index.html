@@ -10,23 +10,38 @@
 <header>
 	<div class="header-left">
 		<a href="https://haru-chiikawa.github.io/nagoya-team_S/">
-		    <img src="../imgs/namelogo.jpg">
+		    <img src="imgs/namelogo.jpg" alt="名古屋team S　ロゴ" loading="lazy">
 		</a>
 	</div>
-	<div class="header-right">
-		<a href="index.html">これまでの活動</a>
-		<a href="../keii">団体設立の経緯</a>
-		<a href="../logo&icon">ロゴとアイコン</a>
-		<a href="../yakuin">役員</a>
-		<a href="../Q&A">よくある質問</a>
-	</div>
-	<div class="menu_btn"></div>
-	<div class="menu_btn2"></div>
-			
+
+  <!-- チェックボックス（表示切替用） -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-btn"></label>
+
+  <!-- ナビゲーション -->
+  <nav class="nav">
+    <ul>
+
+		<li><a href="">これまでの活動</a></li>
+		<li><a href="../keii">団体設立の経緯</a></li>
+		<li><a href="../">商品紹介</a></li>
+		<li><a href="../logo&icon">ロゴとアイコン</a></li>
+		<li><a href="../yakuin">役員</a></li>
+		<li><a href="../Q&A">よくある質問</a></li>
+	</ul>
+  </nav>
+	
 </header>
 
 <div class="pd"></div>
 <!--　メイン　（以下がホームページの主となる部分）　-->
+<!--　パンくずリスト　-->
+<div class="pankuzu">
+	<p>
+		<a href="..">トップ</a>/これまでの活動
+	</p>
+</div>
+
 <!--　これまでの活動　（ページ名と概要の説明部分）-->
 <div class="main">
 	<h2>これまでの活動</h2>
@@ -36,7 +51,9 @@
 <!--　リンク集　（名古屋team Sの特徴について説明している部分）　-->
 <div class="リンク">
 	<p>2025年度</p>
+<!-----フォーマット-----
 	<a href=""></a><br>
+----------------------->
 	<a href="ichiran/25_8_18">2025/8/18「桜台高校図書館整備」＠桜台高等学校</a><br>
 	<a href="ichiran/25_8_2-3">2025/8/2-3「夏祭り」＠瑞穂区佛立寺</a><br>
 	<a href="ichiran/25_8_2">2025/8/2「高見学区親子防災キャンプ」＠千種区若水中学校</a><br>
@@ -56,12 +73,29 @@
 	<p class="mail">nagoyateamsince20241215@gmail.com</p>
 </div>
 
+<!--フッター-->
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h2>名古屋team S</h2>
+    </div>
+    <div class="footer-links">
+		<a href="">これまでの活動</a>
+		<a href="../keii">団体設立の経緯</a>
+		<a href="../">商品紹介</a>
+		<a href="../logo&icon">ロゴとアイコン</a>
+		<a href="../yakuin">役員</a>
+		<a href="../Q&A">よくある質問</a>
+		<br>
+		<a>今後の活動</a>
+		<a href="ichiran/kizunanohi">絆の日</a>
+    </div>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+    </div>
+    <p class="footer-copy">© 2025 Nagoya team S. All rights reserved.</p>
+  </div>
+</footer>
+
 		</body>
 </html>
-
-
-
-
-
-
-
