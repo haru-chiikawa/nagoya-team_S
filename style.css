@@ -234,7 +234,6 @@ h1{
 
 /*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
 .mail{
-	padding-left: 100px;
 	color: blue;
 	font-size: 30px;
 }
@@ -304,3 +303,4 @@ footer {
     margin: 5px 0;
   }
 }
+
