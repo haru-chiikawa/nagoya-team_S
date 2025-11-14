@@ -131,19 +131,26 @@ img{
 	height: auto;
 }
 
+.main-top{
+	height: 750px;
+	background-size: cover;
+	background-image: url("imgs/hand.jpg");
+	background-position: center;
+}
+
+.main-logo{
+	width: 60%;
+	max-width: 500px;
+	height: auto;
+}
+
 .main-top-text{
 	width: 90%;
+	padding: 0 15px;
 	margin: 0 auto;
 	color: #fff;
 	font-size: 24px;
 	text-align: center;
-}
-
-.main-top{
-	background-size: cover;
-	background-image: url("imgs/hand.jpg");
-	background-position: center;
-	padding: 180px 0 100px;
 }
 
 /*　ページを開いてトップに表示される画像部の情報を記載（タブレットの画素数を想定）。　*/
@@ -153,11 +160,19 @@ img{
 
 /*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
 @media(max-width: 768px){
-	.main-top{
-		padding: 120px 0 80px;
+	.main-logo{
+		width: 70%;
+		max-width: 320px;
 	}
 	.main-top-text{
 		font-size: 16px;
+	}
+}
+
+@media(max-width: 480px){
+	.main-logo{
+		width: 80%;
+		max-width: 260px;
 	}
 }
 
@@ -303,5 +318,6 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
