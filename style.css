@@ -178,7 +178,7 @@ img{
 
 /*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
 h1{
-	font-size: 40px;
+	font-size: 25px;
 	text-align: center;
 	color: #fff;
 	background-color: #006699;
@@ -318,6 +318,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
