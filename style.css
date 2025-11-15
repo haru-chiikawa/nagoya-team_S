@@ -190,6 +190,9 @@ h1{
 	text-align: center;
 	position: relative;
 }
+ kongo p{
+	 text-align: left;
+ }
 .kizunanohi{
 	position: relative;
 	width: 90%;
@@ -318,6 +321,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
