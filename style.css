@@ -185,6 +185,14 @@ h1{
 	border-radius: 25px;
 }
 
+.kongo p:last-of-type,
+.aboutkizunakouryu p:last-of-type,
+.tokucho p:last-of-type,
+.main-katsudo p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
 /*　今後の活動の部分の情報を記載　*/
 .kongo{
 	text-align: center;
@@ -321,6 +329,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
