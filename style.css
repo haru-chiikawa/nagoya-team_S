@@ -45,7 +45,7 @@ header img{
   width: 65px;
   height: 65px;
   cursor: pointer;
-  background: url("imgs/menu_btn.jpg") no-repeat center center / cover;
+  background: url("imgs/menu_btn_cl.png") no-repeat center center / cover;
 	position: fixed;
 	top: 0px;
 	right: 0px;
@@ -54,7 +54,7 @@ header img{
 
 /* チェック時に × アイコンへ切り替え */
 .menu-toggle:checked + .menu-btn {
-  background: url("imgs/close_btn.jpg") no-repeat center center / cover;
+  background: url("imgs/close_btn_cl.png") no-repeat center center / cover;
 }
 
 /* メニュー（デフォルト非表示） */
@@ -336,6 +336,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
