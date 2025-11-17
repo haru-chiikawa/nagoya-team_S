@@ -185,7 +185,7 @@ h1{
 	border-radius: 25px;
 }
 
-.main-top[
+.main-top{
 	margin-bottom: 40px;
 }
 
@@ -336,6 +336,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
