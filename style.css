@@ -20,7 +20,7 @@ ul, li{
 /*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
 header{
 	height: 65px;
-	background-color: #555;
+	background-color: rgba(0, 0, 0, 0.7);
 	width: 100%;
 	position: fixed;
 	top:0px;
@@ -106,7 +106,7 @@ header img{
 /*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
 @media(max-width: 768px){
 	header{
-		background-color: blue;
+		background-color: rgba(0, 0, 255, 0.5);
 	}
 	header img{
 
@@ -336,6 +336,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
