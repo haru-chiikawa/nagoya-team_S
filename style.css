@@ -14,9 +14,16 @@ p, a{
 }
 
 .text{
-	padding-left: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
-
+@media(max-width: 768px){
+	.text{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+	
 ul, li{
 	list-style: none;
 }
@@ -123,10 +130,6 @@ header img{
 }
 
 /*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
-.pd{
-	height: 65px;
-}
-
 .main{
 	 position-top: 100px;
  }
@@ -346,6 +349,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
