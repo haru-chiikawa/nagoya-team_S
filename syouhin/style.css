@@ -1,0 +1,366 @@
+/*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
+
+/*　ページ全体に関係する情報を記載（すべての画素数に適応）。　*/
+body {
+	background-color: #b0c4de;
+	word-wrap: break-word;
+	overflow-wrap: anywhere;
+	margin: 0;
+	padding: 0;
+}
+
+p, a{
+	padding-left: 5px;
+}
+
+.text{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+@media(max-width: 768px){
+	.text{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+	
+ul, li{
+	list-style: none;
+}
+
+/*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
+header{
+	height: 65px;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+	position: fixed;
+	top:0px;
+	z-index: 10;
+	backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+header img{
+	height: 65px;
+	width: 130px;
+	text-align: left;
+	float: left;
+	padding-right: 25px
+}
+
+/* チェックボックスは非表示 */
+.menu-toggle {
+  display: none;
+}
+
+/* ハンバーガーボタン */
+.menu-btn {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  background: url("imgs/menu_btn_cl.png") no-repeat center center / cover;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 20;
+}
+
+/* チェック時に × アイコンへ切り替え */
+.menu-toggle:checked + .menu-btn {
+  background: url("imgs/close_btn_cl.png") no-repeat center center / cover;
+}
+
+/* メニュー（デフォルト非表示） */
+.nav {
+  display: none;
+  background: #444;
+  margin-top: 60px; /* ボタンの下に余白をつける */
+}
+
+/* チェック時のみ表示 */
+.menu-toggle:checked ~ .nav {
+  display: block;
+}
+
+/* メニューデザイン */
+.nav ul li {
+  border-top: 1px solid #555;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background: #666;
+}
+
+/*　ヘッダーの情報を記載（タブレットの画素数を想定）。　*/
+@media(max-width: 1000px){
+	header{
+		height: px;
+	}
+	header img{
+		height: px;
+		width: px;
+	}
+	.header-left{
+		 padding-right: ;
+	 }
+	.header-right a{
+	font-size: px;
+	padding: px px px px;
+	} 
+}
+
+/*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
+@media(max-width: 768px){
+	header{
+		background-color: rgba(0, 0, 255, 0.4);
+	}
+	header img{
+
+	}
+	.header-left{
+		 padding-right: 20px;
+	 }
+}
+
+/*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
+.main{
+	 position-top: 100px;
+ }
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.main-top{
+	height: 750px;
+	background-size: cover;
+	background-image: url("imgs/hand.jpg");
+	background-position: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+}
+
+.main-logo{
+	width: 60%;
+	max-width: 500px;
+	height: auto;
+}
+
+.main-top-text{
+	width: 90%;
+	padding: 0 15px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+/*　ページを開いてトップに表示される画像部の情報を記載（タブレットの画素数を想定）。　*/
+@media(max-width: px){
+	.
+}
+
+/*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
+@media(max-width: 768px){
+	.main-logo{
+		width: 70%;
+		max-width: 320px;
+	}
+	.main-top-text{
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 480px){
+	.main-logo{
+		width: 80%;
+		max-width: 260px;
+	}
+}
+
+/*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
+h1{
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	background-color: #006699;
+	border-radius: 25px;
+}
+
+.main-top{
+	margin-bottom: 40px;
+}
+
+.kongo{
+	margin-bottom: 40px;
+}
+
+.aboutkizunakouryu p:last-of-type,
+.tokucho p:last-of-type,
+.main-katsudo p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
+/*　今後の活動の部分の情報を記載　*/
+.kongo{
+	text-align: center;
+	position: relative;
+}
+.kongo p{
+	 text-align: left;
+ }
+.kizunanohi{
+	position: relative;
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.kizunanohi img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.kizunanohi .caption{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	padding: 10px;
+	font-size: 16px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+@media screen and(min-width: 769px){
+	.kizunanohi{
+		width: 30%;
+		max-width: 500px;
+		max-height: 800px;
+	}
+	.caption{
+		font-size: 20px;
+	}
+}
+
+@media screen and(max-width: 768px){
+	.kizunanohi{
+		width: 90%;
+	}
+}
+
+
+/*　活動紹介の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+.main-katsudo h3{
+	font-size: 25px;
+}
+
+/*　活動紹介の部分の情報を記載（タブレットの画素数を想定）。　*/
+@media(max-width: px){
+	.
+}
+
+/*　活動紹介の部分の情報を記載（スマートフォンの画素数を想定）。　*/
+@media(max-width: 768px){
+	.
+}
+
+/*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+.mail{
+	color: blue;
+	font-size: 30px;
+}
+
+/*　「お問合せ」の部分の情報を記載（タブレットの画素数を想定）。　*/
+@media(max-width: px){
+	.
+}
+
+/*　「お問合せ」の部分の情報を記載（スマートフォンの画素数を想定）。　*/
+@media(max-width: 768px){
+	.mail{
+		font-size: 20px;
+	} 
+}
+
+
+/******** フッター ********/
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+.footer-links,
+.footer-social {
+  margin: 10px 0;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ff9800; /* ホバー時の色 */
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/************* スマホ対応 ************/
+@media (max-width: 768px) {
+  .footer-links a,
+  .footer-social a {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
