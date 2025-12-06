@@ -129,6 +129,10 @@ header img{
 	 }
 }
 
+.pd{
+	padding-top: 65px;
+}
+
 /*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
 h1{
 	font-size: 25px;
@@ -274,3 +278,4 @@ footer {
     margin: 5px 0;
   }
 }
+
