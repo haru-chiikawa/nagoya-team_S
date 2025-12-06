@@ -1,51 +1,104 @@
 /*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
 
-/*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
+/*　ページ全体に関係する情報を記載（すべての画素数に適応）。　*/
+body {
+	background-color: #b0c4de;
+	word-wrap: break-word;
+	overflow-wrap: anywhere;
+	margin: 0;
+	padding: 0;
+}
+
+p, a{
+	padding-left: 5px;
+}
+
+.text{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+@media(max-width: 768px){
+	.text{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+	
+ul, li{
+	list-style: none;
+}
+
+/********************　ヘッダー　********************/
 header{
 	height: 65px;
-	background-color: #555;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
 	position: fixed;
 	top:0px;
 	z-index: 10;
+	backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 header img{
 	height: 65px;
 	width: 130px;
-}
-
-.header-left{
 	text-align: left;
 	float: left;
 	padding-right: 25px
 }
 
-.header-right{
-	float: left;
+/* チェックボックスは非表示 */
+.menu-toggle {
+  display: none;
 }
 
- .header-right a{
-	font-size: 25px;
-	padding: 12px 10px;
-}
-
-header a{
-	text-decoration: none;
-	color:#fff;
-}
-
-.menu_btn{
-	width: 65px;
-	height: 65px;
-	background: url("../../../imgs/menu_btn.jpg") no-repeat;
-	background-size: 100% 100%;
+/* ハンバーガーボタン */
+.menu-btn {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  background: url("../../../imgs/menu_btn_cl.png") no-repeat center center / cover;
 	position: fixed;
-	top: 0px; right: 0px;
-	z-index: 15;
+	top: 0px;
+	right: 0px;
+	z-index: 20;
 }
 
+/* チェック時に × アイコンへ切り替え */
+.menu-toggle:checked + .menu-btn {
+  background: url("../../../imgs/close_btn_cl.png") no-repeat center center / cover;
+}
 
-/*　ヘッダーの情報を記載（タブレットの画素数を想定）。　*/
+/* メニュー（デフォルト非表示） */
+.nav {
+  display: none;
+  background: #444;
+  margin-top: 60px; /* ボタンの下に余白をつける */
+}
+
+/* チェック時のみ表示 */
+.menu-toggle:checked ~ .nav {
+  display: block;
+}
+
+/* メニューデザイン */
+.nav ul li {
+  border-top: 1px solid #555;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background: #666;
+}
+
+/********************　ヘッダー（タブレット）　********************/
 @media(max-width: 1000px){
 	header{
 		height: px;
@@ -63,188 +116,85 @@ header a{
 	} 
 }
 
-/*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
+/********************　ヘッダー（スマートフォン）　********************/
+@media(max-width: 768px){
 	header{
-		height: 100px;
-		background-color: blue;
+		background-color: rgba(0, 0, 255, 0.4);
 	}
 	header img{
-		height: 100px;
-		width: 200px;
+
 	}
 	.header-left{
 		 padding-right: 20px;
 	 }
-	.header-right a{
-	    font-size: 20px;
-		padding-top: 25px;
-		padding-left: 15px;
-	}
-	.menu_btn{
-		width: 100px;
-		height: 100px;
-	}
 }
 
-/*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
 .pd{
 	height: 65px;
 }
 
-.main{
-	 position-top: 100px;
- }
-
-
-img{
-	width:600px;
-	height:300px;
-}
-
-.main-top-text{
-	width: 950px;
-	padding: 0 15px;
-	margin: 0 auto;
-	color: #fff;
-	font-size: 50px;
-	text-align: center;
-}
-
-.main-top{
-	height: 750px;
-	background-size: cover;
-	background-image: url("imgs/hand.jpg");
-}
-
-/*　ページを開いてトップに表示される画像部の情報を記載（タブレットの画素数を想定）。　*/
-@media(max-width: px){
-	.
-}
-
-/*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
-	.pd{
-		height: 100px;
-	}
-}
-
-/*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
-h2{
-	font-size: 40px;
+/********************　タイトル情報　********************/
+h1{
+	font-size: 25px;
 	text-align: center;
 	color: #fff;
 	background-color: #006699;
 	border-radius: 25px;
 }
 
-/*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
-.mail{
-	padding-left: 100px;
-	color: blue;
-	font-size: 30px;
+.main p:last-of-type {
+	margin-bottom: 40px;
 }
 
-/*　「お問合せ」の部分の情報を記載（タブレットの画素数を想定）。　*/
-@media(max-width: px){
-	.
+/******** フッター ********/
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
 }
 
-/*　「お問合せ」の部分の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
-	.mail{
-		font-size: 20px;
-	} 
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-/*　ページ全体に關係する情報を記載（すべての画素数に適応）。　*/
-body{
-	background-color: #b0c4de;
+.footer-logo h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
 }
 
-
-/*
-現在、抜いているが、今後復帰する際に参考となるコード達
-
-.main-aboutkizunakouryu h2{
-	width: 700px;
+.footer-links,
+.footer-social {
+  margin: 10px 0;
 }
 
-.main-katsudo h2{
-	width: 400px;
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
 }
 
-.main-otoiawase h2{
-	width: 180px;
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ff9800; /* ホバー時の色 */
 }
 
-➀｛
-background-color: #7db3aa;
-	width: 930px;
-	border-radius: 20px;
-｝
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
 
-➁｛
-	background-color: #fc9b9b;
-	width: 980px;
-	border-radius: 20px;
-｝
-
-➂｛
-	background-color: #759852;
-	width: 850px;
-	border-radius: 20px;
-｝
-
-➃｛
-	background-color: #ab9249;
-	width: 860px;
-	border-radius: 20px;
-｝
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/************* スマホ対応 ************/
+@media (max-width: 768px) {
+  .footer-links a,
+  .footer-social a {
+    display: block;
+    margin: 5px 0;
+  }
+}
