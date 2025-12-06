@@ -147,7 +147,7 @@ img{
 .main-top{
 	height: 750px;
 	background-size: cover;
-	background-image: url("imgs/");
+	background-image: url("imgs/syouhin.png");
 	background-position: center;
 	display: flex;
     justify-content: center;
@@ -337,5 +337,6 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
