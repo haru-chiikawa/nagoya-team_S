@@ -13,12 +13,12 @@ p, a{
 	padding-left: 5px;
 }
 
-.text{
+main{
 	padding-left: 50px;
 	padding-right: 50px;
 }
 @media(max-width: 768px){
-	.text{
+	main{
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -58,7 +58,7 @@ header img{
   width: 65px;
   height: 65px;
   cursor: pointer;
-  background: url("imgs/menu_btn_cl.png") no-repeat center center / cover;
+  background: url("../imgs/menu_btn_cl.png") no-repeat center center / cover;
 	position: fixed;
 	top: 0px;
 	right: 0px;
@@ -67,7 +67,7 @@ header img{
 
 /* チェック時に × アイコンへ切り替え */
 .menu-toggle:checked + .menu-btn {
-  background: url("imgs/close_btn_cl.png") no-repeat center center / cover;
+  background: url("../imgs/close_btn_cl.png") no-repeat center center / cover;
 }
 
 /* メニュー（デフォルト非表示） */
@@ -127,66 +127,6 @@ header img{
 	.header-left{
 		 padding-right: 20px;
 	 }
-}
-
-/*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
-.main{
-	 position-top: 100px;
- }
-
-
-img{
-	max-width: 100%;
-	height: auto;
-}
-
-.main-top{
-	height: 750px;
-	background-size: cover;
-	background-image: url("imgs/hand.jpg");
-	background-position: center;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	text-align: center;
-}
-
-.main-logo{
-	width: 60%;
-	max-width: 500px;
-	height: auto;
-}
-
-.main-top-text{
-	width: 90%;
-	padding: 0 15px;
-	margin: 0 auto;
-	color: #fff;
-	font-size: 24px;
-	text-align: center;
-}
-
-/*　ページを開いてトップに表示される画像部の情報を記載（タブレットの画素数を想定）。　*/
-@media(max-width: px){
-	.
-}
-
-/*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 768px){
-	.main-logo{
-		width: 70%;
-		max-width: 320px;
-	}
-	.main-top-text{
-		font-size: 16px;
-	}
-}
-
-@media(max-width: 480px){
-	.main-logo{
-		width: 80%;
-		max-width: 260px;
-	}
 }
 
 /*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
@@ -263,22 +203,7 @@ h1{
 }
 
 
-/*　活動紹介の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
-.main-katsudo h3{
-	font-size: 25px;
-}
-
-/*　活動紹介の部分の情報を記載（タブレットの画素数を想定）。　*/
-@media(max-width: px){
-	.
-}
-
-/*　活動紹介の部分の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 768px){
-	.
-}
-
-/*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+/*　「お問合せ」の部分の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
 .mail{
 	color: blue;
 	font-size: 30px;
@@ -349,18 +274,3 @@ footer {
     margin: 5px 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
