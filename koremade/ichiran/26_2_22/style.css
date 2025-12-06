@@ -142,10 +142,7 @@ h1{
 	border-radius: 25px;
 }
 
-.aboutkizunakouryu p:last-of-type,
-.tokucho p:last-of-type,
-.main-katsudo p:last-of-type,
-.main-otoiawase p:last-of-type {
+.main p:last-of-type {
 	margin-bottom: 40px;
 }
 
@@ -220,3 +217,4 @@ footer {
     margin: 5px 0;
   }
 }
+
