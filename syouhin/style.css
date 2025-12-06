@@ -133,7 +133,67 @@ header img{
 	padding-top: 65px;
 }
 
-/*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
+/*****************************　トップ 画像部　*****************************/
+.main{
+	 position-top: 100px;
+ }
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.main-top{
+	height: 750px;
+	background-size: cover;
+	background-image: url("imgs/");
+	background-position: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+}
+
+.main-logo{
+	width: 60%;
+	max-width: 500px;
+	height: auto;
+}
+
+.main-top-text{
+	width: 90%;
+	padding: 0 15px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+/*****************************　トップ 画像部（タブレット）　*****************************/
+@media(max-width: px){
+	.
+}
+
+/*****************************　トップ 画像部（スマートフォン）　*****************************/
+@media(max-width: 768px){
+	.main-logo{
+		width: 70%;
+		max-width: 320px;
+	}
+	.main-top-text{
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 480px){
+	.main-logo{
+		width: 80%;
+		max-width: 260px;
+	}
+}
+
+/*****************************　タイトル等情報　*****************************/
 h1{
 	font-size: 25px;
 	text-align: center;
@@ -150,33 +210,32 @@ h1{
 	margin-bottom: 40px;
 }
 
-.aboutkizunakouryu p:last-of-type,
-.tokucho p:last-of-type,
-.main-katsudo p:last-of-type,
+.about p:last-of-type,
+.syouhin p:last-of-type,
 .main-otoiawase p:last-of-type {
 	margin-bottom: 40px;
 }
 
-/*　今後の活動の部分の情報を記載　*/
-.kongo{
+/*****************************　商品　*****************************/
+.syouhin{
 	text-align: center;
 	position: relative;
 }
-.kongo p{
+.syouhin p{
 	 text-align: left;
  }
-.kizunanohi{
+.box{
 	position: relative;
 	width: 90%;
 	max-width: 600px;
 	margin: 0 auto;
 }
-.kizunanohi img{
+.box img{
 	width: 100%;
 	height: auto;
 	display: block;
 }
-.kizunanohi .caption{
+.box .caption{
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -190,7 +249,7 @@ h1{
 }
 
 @media screen and(min-width: 769px){
-	.kizunanohi{
+	.box{
 		width: 30%;
 		max-width: 500px;
 		max-height: 800px;
@@ -201,24 +260,24 @@ h1{
 }
 
 @media screen and(max-width: 768px){
-	.kizunanohi{
+	.box{
 		width: 90%;
 	}
 }
 
 
-/*　「お問合せ」の部分の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
+/*****************************　お問合せ　*****************************/
 .mail{
 	color: blue;
 	font-size: 30px;
 }
 
-/*　「お問合せ」の部分の情報を記載（タブレットの画素数を想定）。　*/
+/*****************************　お問合せ（タブレット）　*****************************/
 @media(max-width: px){
 	.
 }
 
-/*　「お問合せ」の部分の情報を記載（スマートフォンの画素数を想定）。　*/
+/*****************************　お問合せ（スマートフォン）　*****************************/
 @media(max-width: 768px){
 	.mail{
 		font-size: 20px;
@@ -278,4 +337,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
