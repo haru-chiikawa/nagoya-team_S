@@ -129,18 +129,85 @@ header img{
 	 }
 }
 
+.pd{
+	padding-top: 65px;
+}
+
 /*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
 h1{
-	font-size: 40px;
+	font-size: 25px;
 	text-align: center;
 	color: #fff;
 	background-color: #006699;
 	border-radius: 25px;
 }
 
-/*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+.main-top{
+	margin-bottom: 40px;
+}
+
+.kongo{
+	margin-bottom: 40px;
+}
+
+.aboutkizunakouryu p:last-of-type,
+.tokucho p:last-of-type,
+.main-katsudo p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
+/*　今後の活動の部分の情報を記載　*/
+.kongo{
+	text-align: center;
+	position: relative;
+}
+.kongo p{
+	 text-align: left;
+ }
+.kizunanohi{
+	position: relative;
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.kizunanohi img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.kizunanohi .caption{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	padding: 10px;
+	font-size: 16px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+@media screen and(min-width: 769px){
+	.kizunanohi{
+		width: 30%;
+		max-width: 500px;
+		max-height: 800px;
+	}
+	.caption{
+		font-size: 20px;
+	}
+}
+
+@media screen and(max-width: 768px){
+	.kizunanohi{
+		width: 90%;
+	}
+}
+
+/*　「お問合せ」の部分の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
 .mail{
-	padding-left: 100px;
 	color: blue;
 	font-size: 30px;
 }
@@ -151,99 +218,62 @@ h1{
 }
 
 /*　「お問合せ」の部分の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
+@media(max-width: 768px){
 	.mail{
 		font-size: 20px;
 	} 
 }
 
-/*　ページ全体に關係する情報を記載（すべての画素数に適応）。　*/
-body{
-	background-color: #b0c4de;
+
+/******** フッター ********/
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
 }
 
-
-/*
-現在、抜いているが、今後復帰する際に参考となるコード達
-
-.main-aboutkizunakouryu h2{
-	width: 700px;
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.main-katsudo h2{
-	width: 400px;
+.footer-logo h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
 }
 
-.main-otoiawase h2{
-	width: 180px;
+.footer-links,
+.footer-social {
+  margin: 10px 0;
 }
 
-➀｛
-background-color: #7db3aa;
-	width: 930px;
-	border-radius: 20px;
-｝
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
 
-➁｛
-	background-color: #fc9b9b;
-	width: 980px;
-	border-radius: 20px;
-｝
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ff9800; /* ホバー時の色 */
+}
 
-➂｛
-	background-color: #759852;
-	width: 850px;
-	border-radius: 20px;
-｝
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
 
-➃｛
-	background-color: #ab9249;
-	width: 860px;
-	border-radius: 20px;
-｝
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/************* スマホ対応 ************/
+@media (max-width: 768px) {
+  .footer-links a,
+  .footer-social a {
+    display: block;
+    margin: 5px 0;
+  }
+}
