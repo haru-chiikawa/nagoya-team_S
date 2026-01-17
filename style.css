@@ -221,18 +221,18 @@ h1{
 .kongo p{
 	 text-align: left;
  }
-.kizunanohi{
+.box{
 	position: relative;
-	width: 90%;
-	max-width: 600px;
+	width: calc(50% - 20%);
+	max-width: 500px;
 	margin: 0 auto;
 }
-.kizunanohi img{
+.box img{
 	width: 100%;
 	height: auto;
 	display: block;
 }
-.kizunanohi .caption{
+.box .caption{
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -245,20 +245,23 @@ h1{
 	text-align: center;
 }
 
-@media screen and(min-width: 769px){
-	.kizunanohi{
-		width: 30%;
-		max-width: 500px;
-		max-height: 800px;
+@media screen and(min-width: 992px){
+	.box{
+		width: calc(33.3% - 20px);
+		max-width: 300px;
 	}
-	.caption{
+	.box .caption{
 		font-size: 20px;
 	}
 }
 
-@media screen and(max-width: 768px){
-	.kizunanohi{
-		width: 90%;
+@media screen and(max-width: 600px){
+	.box {
+		width: calc(50% - 10%);
+	}
+	.box .caption{
+		font-size: 12px;
+		padding: 6px;
 	}
 }
 
@@ -349,6 +352,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
