@@ -221,26 +221,31 @@ h1{
 .kongo p{
 	 text-align: left;
  }
+.box-container{
+	display:  flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
 .box{
 	position: relative;
 	width: calc(50% - 20%);
 	max-width: 500px;
-	margin: 0 auto;
 }
 .box img{
 	width: 100%;
 	height: auto;
+	border-radius: 10px;
 	display: block;
 }
 .box .caption{
 	position: absolute;
 	bottom: 0;
-	left: 0;
 	width: 100%;
-	color: white;
-	background: rgba(0,0,0,0.5);
 	padding: 10px;
 	font-size: 16px;
+	color: white;
+	background: rgba(0,0,0,0.5);
 	box-sizing: border-box;
 	text-align: center;
 }
@@ -352,6 +357,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
