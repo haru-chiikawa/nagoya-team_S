@@ -108,6 +108,11 @@ h1{
 	width: auto;
 }
 
+img{
+	height: 100px;
+}
+
+
 
 /*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
 .mail{
@@ -132,5 +137,6 @@ h1{
 body{
 	background-color: #b0c4de;
 }
+
 
 
