@@ -98,20 +98,16 @@ h1{
 }
 
 /*　内容の情報　*/
-.top-img{
+.top-img img{
 	width: 50%;
 	height: auto;
 }
 
-.sub-img{
-	height: 150px;
-	width: auto;
-}
-
-img{
+.sub-img img{
+	width: 150px;
 	height: 100px;
+	object-fit: cover;
 }
-
 
 
 /*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
@@ -137,6 +133,7 @@ img{
 body{
 	background-color: #b0c4de;
 }
+
 
 
 
