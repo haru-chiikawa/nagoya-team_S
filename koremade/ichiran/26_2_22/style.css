@@ -146,6 +146,11 @@ h1{
 	margin-bottom: 40px;
 }
 
+img{
+	width: 40px;
+	height: auto;
+}
+
 /********************　お問合せ　********************/
 .mail{
 	padding-left: 100px;
@@ -217,4 +222,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
