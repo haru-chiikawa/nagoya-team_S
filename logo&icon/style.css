@@ -45,7 +45,7 @@ header img{
 	width: 130px;
 	text-align: left;
 	float: left;
-	padding-right: 25px
+	padding-right: 25px;
 }
 
 /* チェックボックスは非表示 */
@@ -229,4 +229,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
