@@ -160,7 +160,6 @@ h1{
 
 /***********　お問合せ　***********/
 .mail{
-	padding-left: 100px;
 	color: blue;
 	font-size: 30px;
 }
@@ -229,6 +228,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
