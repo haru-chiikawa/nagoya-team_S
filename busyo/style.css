@@ -7,28 +7,25 @@ body {
 	overflow-wrap: anywhere;
 	margin: 0;
 	padding: 0;
-}
-
-p, a{
-	padding-left: 5px;
-}
-
-.main{
 	padding-left: 50px;
 	padding-right: 50px;
 }
 @media(max-width: 768px){
-	.main{
+	body{
 		padding-left: 10px;
 		padding-right: 10px;
 	}
 }
 
+p, a{
+	padding-left: 5px;
+}
+	
 ul, li{
 	list-style: none;
 }
 
-/*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
+/*********************　ヘッダー　*********************/
 header{
 	height: 65px;
 	background-color: rgba(255, 255, 255, 0.5);
@@ -58,7 +55,7 @@ header img{
   width: 65px;
   height: 65px;
   cursor: pointer;
-  background: url("../imgs/menu_btn_cl.jpg") no-repeat center center / cover;
+  background: url("../imgs/menu_btn_cl.png") no-repeat center center / cover;
 	position: fixed;
 	top: 0px;
 	right: 0px;
@@ -67,7 +64,7 @@ header img{
 
 /* チェック時に × アイコンへ切り替え */
 .menu-toggle:checked + .menu-btn {
-  background: url("../imgs/close_btn_cl.jpg") no-repeat center center / cover;
+  background: url("../imgs/close_btn_cl.png") no-repeat center center / cover;
 }
 
 /* メニュー（デフォルト非表示） */
@@ -98,7 +95,7 @@ header img{
   background: #666;
 }
 
-/*　ヘッダーの情報を記載（タブレットの画素数を想定）。　*/
+/******　ヘッダー（タブレット）　******/
 @media(max-width: 1000px){
 	header{
 		height: px;
@@ -116,7 +113,7 @@ header img{
 	} 
 }
 
-/*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
+/******　ヘッダー（スマホ）　******/
 @media(max-width: 768px){
 	header{
 		background-color: rgba(0, 0, 255, 0.4);
@@ -129,7 +126,8 @@ header img{
 	 }
 }
 
-/*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
+
+/*********************　メイン　*********************/
 .pd{
 	height: 65px;
 }
@@ -139,7 +137,7 @@ img{
 	height: auto;
 }
 
-/*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
+/***********　タイトル　***********/
 h1{
 	font-size: 25px;
 	text-align: center;
@@ -153,30 +151,30 @@ h1{
 	margin-bottom: 40px;
 }
 
-/*　活動紹介の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+/***********　活動紹介　***********/
 .main-katsudo h3{
 	font-size: 25px;
 }
 
-/*　「お問合せ」の部分の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
+/***********　お問合せ　***********/
 .mail{
 	color: blue;
 	font-size: 30px;
 }
 
-/*　「お問合せ」の部分の情報を記載（タブレットの画素数を想定）。　*/
+/******　お問合せ（タブレット）　******/
 @media(max-width: px){
 	.
 }
 
-/*　「お問合せ」の部分の情報を記載（スマートフォンの画素数を想定）。　*/
+/******　お問合せ（スマホ）　******/
 @media(max-width: 1200px){
 	.mail{
 		font-size: 20px;
 	} 
 }
 
-/******** フッター ********/
+/********************* フッター *********************/
 
 footer {
   background-color: #222;
@@ -228,4 +226,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
