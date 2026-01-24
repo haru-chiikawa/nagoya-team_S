@@ -139,6 +139,9 @@ img{
 	width: 50%;
 	max-width: 300px;
 	height: auto;
+}
+
+.img{
 	text-align: center;
 }
 
@@ -229,5 +232,6 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
