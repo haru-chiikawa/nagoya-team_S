@@ -7,6 +7,9 @@ body {
 	overflow-wrap: anywhere;
 	margin: 0;
 	padding: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
 }
 
 p, a{
@@ -229,6 +232,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
