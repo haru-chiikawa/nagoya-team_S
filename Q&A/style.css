@@ -17,14 +17,27 @@ ul, li{
 	list-style: none;
 }
 
-/*　ヘッダーの情報を記載。（すべての画素数に適応。一部パソコン幅のみに関係）　*/
+.text{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+@media(max-width: 768px){
+	.text{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+/*********************　ヘッダー　*********************/
 header{
 	height: 65px;
-	background-color: #555;
+	background-color: rgba(255, 255, 255, 0.5);
 	width: 100%;
 	position: fixed;
 	top:0px;
 	z-index: 10;
+	backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 header img{
@@ -45,7 +58,7 @@ header img{
   width: 65px;
   height: 65px;
   cursor: pointer;
-  background: url("../imgs/menu_btn.jpg") no-repeat center center / cover;
+  background: url("../imgs/menu_btn_cl.png") no-repeat center center / cover;
 	position: fixed;
 	top: 0px;
 	right: 0px;
@@ -54,7 +67,7 @@ header img{
 
 /* チェック時に × アイコンへ切り替え */
 .menu-toggle:checked + .menu-btn {
-  background: url("../imgs/close_btn.jpg") no-repeat center center / cover;
+  background: url("../imgs/close_btn_cl.png") no-repeat center center / cover;
 }
 
 /* メニュー（デフォルト非表示） */
@@ -85,7 +98,7 @@ header img{
   background: #666;
 }
 
-/*　ヘッダーの情報を記載（タブレットの画素数を想定）。　*/
+/******　ヘッダー（タブレット）　******/
 @media(max-width: 1000px){
 	header{
 		height: px;
@@ -103,10 +116,10 @@ header img{
 	} 
 }
 
-/*　ヘッダーの情報を記載（スマートフォンの画素数を想定）。　*/
+/******　ヘッダー（スマホ）　******/
 @media(max-width: 768px){
 	header{
-		background-color: blue;
+		background-color: rgba(0, 0, 255, 0.4);
 	}
 	header img{
 
@@ -116,37 +129,27 @@ header img{
 	 }
 }
 
-/*　ページを開いてトップに表示される画像部の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+
+/*********************　メイン　*********************/
 .pd{
 	height: 65px;
 }
 
-.main{
-	 position-top: 100px;
- }
-
-/*　ページを開いてトップに表示される画像部の情報を記載（タブレットの画素数を想定）。　*/
-@media(max-width: px){
-	.
-}
-
-/*　ページを開いてトップに表示される画像部の情報を記載（スマートフォンの画素数を想定）。　*/
-@media(max-width: 1200px){
-	.pd{
-		height: 65px;
-	}
-}
-
-/*　各内容のタイトルの情報を記載。（すべての画素数に適応）　*/
+/***********　タイトル　***********/
 h1{
-	font-size: 40px;
+	font-size: 25px;
 	text-align: center;
 	color: #fff;
 	background-color: #006699;
 	border-radius: 25px;
 }
 
-/*　活動紹介の部分の情報を記載（すべての画素数に関係。一部パソコン幅のみに関係）。　*/
+.Q&A p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
+/***********　Ｑ＆Ａ　**********/
 
 .r{
 	text-align: right;
@@ -156,27 +159,25 @@ h1{
 	text-align: left;
 }
 
-/*　「お問合せ」の部分の情報を記載（すべての画素数に關係。一部パソコン幅のみに關係）。　*/
+/**********　お問合せ　***********/
 .mail{
-	padding-left: 100px;
 	color: blue;
 	font-size: 30px;
 }
 
-/*　「お問合せ」の部分の情報を記載（タブレットの画素数を想定）。　*/
+/******　お問合せ（タブレット）　******/
 @media(max-width: px){
 	.
 }
 
-/*　「お問合せ」の部分の情報を記載（スマートフォンの画素数を想定）。　*/
+/******　お問合せ（スマホ）　******/
 @media(max-width: 1200px){
 	.mail{
 		font-size: 20px;
 	} 
 }
 
-/******** フッター ********/
-
+/********************* フッター *********************/
 footer {
   background-color: #222;
   color: #fff;
@@ -227,7 +228,3 @@ footer {
     margin: 5px 0;
   }
 }
-
-
-
-
