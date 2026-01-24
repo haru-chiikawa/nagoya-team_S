@@ -7,14 +7,6 @@ body{
 	overflow-wrap: anywhere;
 	margin: 0;
 	padding: 0;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-@media(max-width: 768px){
-	body{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
 }
 
 p, a{
@@ -23,6 +15,17 @@ p, a{
 	
 ul, li{
 	list-style: none;
+}
+
+.text{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+@media(max-width: 768px){
+	.text{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 /*********************　ヘッダー　*********************/
@@ -226,6 +229,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
