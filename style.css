@@ -116,7 +116,7 @@ header img{
 	} 
 }
 
-/******　ヘッダー（スマ　******/
+/******　ヘッダー（スマホ）　******/
 @media(max-width: 768px){
 	header{
 		background-color: rgba(0, 0, 255, 0.4);
@@ -171,7 +171,7 @@ img{
 	.
 }
 
-/******　トップ（スマ）　******/
+/******　トップ（スマホ）　******/
 @media(max-width: 768px){
 	.main-logo{
 		width: 70%;
@@ -262,7 +262,7 @@ h1{
 
 @media screen and(max-width: 600px){
 	.box {
-		width: 80;
+		width: 80%;
 	}
 	.box .caption{
 		font-size: 10px;
@@ -281,7 +281,7 @@ h1{
 	.
 }
 
-/******　活動紹介（スマ）　******/
+/******　活動紹介（スマホ）　******/
 @media(max-width: 768px){
 	.
 }
@@ -297,7 +297,7 @@ h1{
 	.
 }
 
-/******　お問合せ（スマ）　******/
+/******　お問合せ（スマホ）　******/
 @media(max-width: 768px){
 	.mail{
 		font-size: 20px;
@@ -357,3 +357,4 @@ footer {
     margin: 5px 0;
   }
 }
+
