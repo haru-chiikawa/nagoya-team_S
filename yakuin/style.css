@@ -149,9 +149,11 @@ h1{
 	border-radius: 25px;
 }
 
+.yakuin p:last-of-type,
 .yakuin-1 p:last-of-type,
 .yakuin-2 p:last-of-type,
 .yakuin-3 p:last-of-type,
+.yakuin-4 p:last-of-type,
 .main-otoiawase p:last-of-type {
 	margin-bottom: 40px;
 }
@@ -283,5 +285,6 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
