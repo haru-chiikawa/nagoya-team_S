@@ -156,6 +156,62 @@ h1{
 	margin-bottom: 40px;
 }
 
+/***********　役員　***********/
+.executive {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  align-items: flex-start;
+}
+
+.executive-photo img {
+  width: 220px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.executive-profile h2 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.executive-profile h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.executive-profile p {
+  font-size: 15px;
+}
+
+/******　役員（スマホ）　******/
+@media screen and (max-width: 768px) {
+  .executive {
+    flex-direction: column;
+    gap: 24px;
+    margin: 40px auto;
+  }
+
+  .executive-photo {
+    text-align: center;
+  }
+
+  .executive-photo img {
+    width: 160px;
+  }
+
+  .executive-profile h3 {
+    font-size: 20px;
+  }
+
+  .executive-profile p {
+    font-size: 14px;
+  }
+}
+
 /***********　お問合せ　***********/
 .mail{
 	color: blue;
@@ -227,4 +283,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
