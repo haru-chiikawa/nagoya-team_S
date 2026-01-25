@@ -147,7 +147,7 @@ h1{
 	border-radius: 25px;
 }
 
-.kizunanohi p:last-of-type,
+.event p:last-of-type,
 .main-otoiawase p:last-of-type {
 	margin-bottom: 40px;
 }
@@ -204,4 +204,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
