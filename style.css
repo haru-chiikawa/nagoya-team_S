@@ -250,7 +250,7 @@ h1{
 	text-align: center;
 }
 
-@media screen and(min-width: 992px){
+@media screen and (min-width: 992px){
 	.box{
 		width: calc(33.3% - 20px);
 		max-width: 280px;
@@ -260,13 +260,14 @@ h1{
 	}
 }
 
-@media screen and(max-width: 600px){
+@media screen and (max-width: 600px){
 	.box {
-		width: 80%;
+		width: 100%;
+		max-width: 100%
 	}
 	.box .caption{
-		font-size: 10px;
-		padding: 5px;
+		font-size: 12px;
+		padding: 8px;
 	}
 }
 
@@ -357,4 +358,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
