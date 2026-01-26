@@ -139,6 +139,13 @@ img{
 	height: auto;
 }
 
+@media (max-width: 768px) {
+	.top-img{
+		width: 100%;
+		height: auto;
+	}
+}
+
 .img{
 	text-align: center;
 }
@@ -168,7 +175,7 @@ h1{
 	.
 }
 
-/******　お問合せ（スマ）　******/
+/******　お問合せ（スマホ）　******/
 @media(max-width: 1200px){
 	.mail{
 		font-size: 20px;
@@ -227,3 +234,4 @@ footer {
     margin: 5px 0;
   }
 }
+
