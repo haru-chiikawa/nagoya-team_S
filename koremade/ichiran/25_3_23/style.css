@@ -140,7 +140,7 @@ img{
 }
 
 @media (max-width: 768px) {
-	.top-img{
+	.top-img img{
 		width: 100%;
 		height: auto;
 	}
@@ -234,4 +234,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
