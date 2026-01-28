@@ -1,0 +1,234 @@
+/*　CSSでは、HTMLで記載した内容の色付けなど、見た目の情報を記載。　*/
+
+/*　ページ全体に関係する情報を記載（すべての画素数に適応）。　*/
+body {
+	background-color: #b0c4de;
+	word-wrap: break-word;
+	overflow-wrap: anywhere;
+	margin: 0;
+	padding: 0;
+}
+
+p, a{
+	padding-left: 5px;
+}
+
+ul, li{
+	list-style: none;
+}
+
+.text{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+@media(max-width: 768px){
+	.text{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+/********************　ヘッダー　********************/
+header{
+	height: 65px;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 100%;
+	position: fixed;
+	top:0px;
+	z-index: 10;
+	backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+header img{
+	height: 65px;
+	width: 130px;
+	text-align: left;
+	float: left;
+	padding-right: 25px
+}
+
+/* チェックボックスは非表示 */
+.menu-toggle {
+  display: none;
+}
+
+/* ハンバーガーボタン */
+.menu-btn {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  background: url("../../../../imgs/menu_btn_cl.png") no-repeat center center / cover;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 20;
+}
+
+/* チェック時に × アイコンへ切り替え */
+.menu-toggle:checked + .menu-btn {
+  background: url("../../../../imgs/close_btn_cl.png") no-repeat center center / cover;
+}
+
+/* メニュー（デフォルト非表示） */
+.nav {
+  display: none;
+  background: #444;
+  margin-top: 60px; /* ボタンの下に余白をつける */
+}
+
+/* チェック時のみ表示 */
+.menu-toggle:checked ~ .nav {
+  display: block;
+}
+
+/* メニューデザイン */
+.nav ul li {
+  border-top: 1px solid #555;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background: #666;
+}
+
+/********************　ヘッダー（タブレット）　********************/
+@media(max-width: 1000px){
+	header{
+		height: px;
+	}
+	header img{
+		height: px;
+		width: px;
+	}
+	.header-left{
+		 padding-right: ;
+	 }
+	.header-right a{
+	font-size: px;
+	padding: px px px px;
+	} 
+}
+
+/********************　ヘッダー（スマートフォン）　********************/
+@media(max-width: 768px){
+	header{
+		background-color: rgba(0, 0, 255, 0.4);
+	}
+	header img{
+
+	}
+	.header-left{
+		 padding-right: 20px;
+	 }
+}
+
+/*********************　メイン　*********************/
+.pd{
+	height: 65px;
+}
+
+img{
+	width: 40%;
+	height: auto;
+}
+
+.img{
+	text-align: center;
+}
+
+/********************　タイトル情報　********************/
+h1{
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	background-color: #006699;
+	border-radius: 25px;
+}
+
+.event p:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
+
+/********************　お問合せ　********************/
+.mail{
+	color: blue;
+	font-size: 30px;
+}
+
+/********************　お問合せ（タブレット）　********************/
+@media(max-width: px){
+	.
+}
+
+/********************　お問合せ（スマートフォン）　********************/
+@media(max-width: 1200px){
+	.mail{
+		font-size: 20px;
+	} 
+}
+
+/******** フッター ********/
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+.footer-links,
+.footer-social {
+  margin: 10px 0;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #ff9800; /* ホバー時の色 */
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/************* スマホ対応 ************/
+@media (max-width: 768px) {
+  .footer-links a,
+  .footer-social a {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+
+
+
+
