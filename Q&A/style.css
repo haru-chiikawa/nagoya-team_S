@@ -149,6 +149,10 @@ h1{
 	margin-bottom: 40px;
 }
 
+.set p:last-of-type{
+	border-bottom: 1px solid #333;
+}
+
 /***********　Ｑ＆Ａ　**********/
 
 .r{
@@ -228,3 +232,4 @@ footer {
     margin: 5px 0;
   }
 }
+
