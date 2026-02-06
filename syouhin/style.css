@@ -134,6 +134,9 @@ header img{
 	 position-top: 100px;
  }
 
+.pd{
+	height: 65px;
+}
 
 img{
 	max-width: 100%;
@@ -339,6 +342,7 @@ footer {
     margin: 5px 0;
   }
 }
+
 
 
 
