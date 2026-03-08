@@ -1,0 +1,14 @@
+/*********************　メイン　*********************/
+img{
+	width:600px;
+	height:300px;
+}
+
+.link a{
+	margin-bottom: 15px;
+}
+
+.link a:last-of-type,
+.main-otoiawase p:last-of-type {
+	margin-bottom: 40px;
+}
